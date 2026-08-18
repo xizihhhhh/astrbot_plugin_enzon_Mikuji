@@ -1,14 +1,44 @@
-# astrbot-plugin-helloworld
+## 幻存神签 - AstrBot抽签插件
+🎴 东方抽签插件，发送“幻存神签”即可抽取，带来随机运势与神秘体验。
 
-AstrBot 插件模板 / A template plugin for AstrBot plugin feature
+## 📖 简介
+幻存神签 是一款轻量级抽签插件，用户可通过指令随机抽取带有吉凶寓意和签文解析的神签。签文内容融合幻想风格与传统文化元素，适合用于游戏互动、日常占卜或社群娱乐场景。
 
-> [!NOTE]
-> This repo is just a template of [AstrBot](https://github.com/AstrBotDevs/AstrBot) Plugin.
-> 
-> [AstrBot](https://github.com/AstrBotDevs/AstrBot) is an agentic assistant for both personal and group conversations. It can be deployed across dozens of mainstream instant messaging platforms, including QQ, Telegram, Feishu, DingTalk, Slack, LINE, Discord, Matrix, etc. In addition, it provides a reliable and extensible conversational AI infrastructure for individuals, developers, and teams. Whether you need a personal AI companion, an intelligent customer support agent, an automation assistant, or an enterprise knowledge base, AstrBot enables you to quickly build AI applications directly within your existing messaging workflows.
+## ✨ 功能特性
+- 🎲 随机抽签：从内置签库中随机抽取一支签，包含“大吉”“中吉”“小吉”“凶”“大凶”等分类。
 
-# Supports
+- 📜 签文详解：每支签附带签诗、运势解读和幸运方向建议。
 
-- [AstrBot Repo](https://github.com/AstrBotDevs/AstrBot)
-- [AstrBot Plugin Development Docs (Chinese)](https://docs.astrbot.app/dev/star/plugin-new.html)
-- [AstrBot Plugin Development Docs (English)](https://docs.astrbot.app/en/dev/star/plugin-new.html)
+- 🕹️ 指令便捷：通过简单指令即可抽签（发送）。
+
+## 安装步骤
+克隆仓库
+
+```bash
+cd /AstrBot/data/plugins
+git clone 
+https://github.com/xizihhhhh/astrbot_plugin_enzon_Mikuji
+#控制台重启AstrBot
+```
+
+## 🕹️ 使用指令
+| 指令 | 说明 |
+| :--- | :--- |
+|幻存神签|随机抽取一支幻存神签|
+
+## 📂 目录结构
+```
+astrbot_plugin_enzon_Mikuji/
+├─ main.py                # 插件主逻辑
+└─ resource/     
+    └─ hcsq/
+        └─ xx.png        # 图片
+```
+
+## 🤝 贡献
+欢迎提交 Issue 和 Pull Request！请确保代码风格与项目一致，并附带必要的测试。
+
+## 📄 许可证
+本项目采用 MIT License 开源协议。
+
+## 🙏 致谢
